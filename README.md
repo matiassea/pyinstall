@@ -1,4 +1,4 @@
-# pyinstall
+# Pyinstall
 Pyinstall observacion y comentarios
 Instalacion pip install pyinstaller
 
@@ -52,11 +52,10 @@ maseva2(def).spec
 
 ![spec](https://user-images.githubusercontent.com/17385297/75021839-d7664f00-5473-11ea-974d-50ad9c70c840.png)
 
-Codigo en CMD
-
+#### Codigo en CMD
 pyinstaller –onefile XXXX.spec YYY.py => se llama al archivo .spec y al archivo a transformar
 
-Ejemplo
+#### Ejemplo
 pyinstaller –onefile maseva2(def).spec maseva2.py
 C:\Python37\Scripts> pyinstaller –onefile maseva2(def).spec maseva2.py
 C:\Python37\Scripts\dist>maseva2.exe
