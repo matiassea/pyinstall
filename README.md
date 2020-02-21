@@ -56,8 +56,8 @@ maseva2(def).spec
 pyinstaller –onefile XXXX.spec YYY.py => se llama al archivo .spec y al archivo a transformar
 
 #### Ejemplo
-pyinstaller –onefile maseva2(def).spec maseva2.py
-C:\Python37\Scripts> pyinstaller –onefile maseva2(def).spec maseva2.py
-C:\Python37\Scripts\dist>maseva2.exe
+* pyinstaller –onefile maseva2(def).spec maseva2.py
+* C:\Python37\Scripts> pyinstaller –onefile maseva2(def).spec maseva2.py
+* C:\Python37\Scripts\dist>maseva2.exe
 
 
