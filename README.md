@@ -40,13 +40,17 @@ hiddenimports = [
 
 ### Ejemplo de links
 An example could be pyinstaller.exe --onefile --windowed --icon=app.ico app.py where:
+* https://pythonhosted.org/PyInstaller/usage.html
 
-    --onefile: Create a one-file bundled executable.
-    --windowed: Parameter to chooseif you are compiling in Mac OS X or Windows
-    --icon= : Choose the file to use as icon for file.
+
+--onefile: Create a one-file bundled executable.
+--windowed: Parameter to chooseif you are compiling in Mac OS X or Windows
+--icon= : Choose the file to use as icon for file.
 
 
 ### Spec files
+
+* https://pyinstaller.readthedocs.io/en/stable/spec-files.html#using-spec-files
 
 maseva2(def).spec
 
@@ -60,4 +64,11 @@ pyinstaller –onefile XXXX.spec YYY.py => se llama al archivo .spec y al archiv
 * C:\Python37\Scripts> pyinstaller –onefile maseva2(def).spec maseva2.py
 * C:\Python37\Scripts\dist>maseva2.exe
 
+# Create only a single file (slower to run, easier to distribute)
+pyinstaller hello.py -F
+
+# Specify the icon file to use
+pyinstaller hello.py --icon=path/to/icon.ico
+
+* https://www.devdungeon.com/content/pyinstaller-tutorial
 
