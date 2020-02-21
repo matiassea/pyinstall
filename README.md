@@ -7,14 +7,14 @@ Instalacion pip install pyinstaller
 
 Aca esta Hook de Pyinstall para pandas
 Estos se encuentran en la carpeta C:\Python37\Lib\site-packages\PyInstaller\hooks
-Para mas consulta: 
-https://pyinstaller.readthedocs.io/en/stable/hooks.html
-https://pythonhosted.org/PyInstaller/#using-pyinstaller
+Para mas consulta:
+* https://pyinstaller.readthedocs.io/en/stable/hooks.html
+* https://pythonhosted.org/PyInstaller/#using-pyinstaller
 
 Listado de hooker:
-http://pydoc.net/PyInstaller/3.3.1/PyInstaller.hooks.hook-_tkinter/
-https://github.com/pyinstaller/pyinstaller
-https://pythonhosted.org/PyInstaller/spec-files.html
+* http://pydoc.net/PyInstaller/3.3.1/PyInstaller.hooks.hook-_tkinter/
+* https://github.com/pyinstaller/pyinstaller
+* https://pythonhosted.org/PyInstaller/spec-files.html
 
 
 A hook file is a Python script, and can use all Python features. 
