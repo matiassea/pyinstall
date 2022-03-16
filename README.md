@@ -3,6 +3,15 @@ Pyinstall observacion y comentarios
 Instalacion pip install pyinstaller
 
 
+### Para instalacion
+
+https://recursospython.com/guias-y-manuales/instalacion-y-utilizacion-de-pip-en-windows-linux-y-os-x/
+
+pip install pyinstaller
+pip install --upgrade pyinstaller
+pyinstaller --version
+
+
 ### Hook de pyintall
 
 Aca esta Hook de Pyinstall para pandas
