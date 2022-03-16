@@ -8,7 +8,9 @@ Instalacion pip install pyinstaller
 https://recursospython.com/guias-y-manuales/instalacion-y-utilizacion-de-pip-en-windows-linux-y-os-x/
 
 pip install pyinstaller
+
 pip install --upgrade pyinstaller
+
 pyinstaller --version
 
 
