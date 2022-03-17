@@ -76,6 +76,7 @@ pyinstaller –onefile XXXX.spec YYY.py => se llama al archivo .spec y al archiv
 * C:\Python37\Scripts> pyinstaller --windowed --onefile maseva2(def).spec maseva2.py
 * C:\Python37\Scripts\dist>maseva2.exe
 * C:\Python37\Scripts> pyinstaller maseva2(def).spec
+* C:\Python37\Scripts>pyinstaller --onefile --windowed --icon=./Logo.ico Actualizacion_catalogos_V20_UNAB.py
 
 # Create only a single file (slower to run, easier to distribute)
 pyinstaller hello.py -F
